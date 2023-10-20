@@ -40,7 +40,7 @@ body {
 }
 
 .card-container {
-    margin: 30vh auto;
+    margin: 30vh auto 0 auto;
     height: fit-content;
     width: fit-content;
     background-color: #ffffff;
