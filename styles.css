@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
     font-size: 18px;
-    color: #2E3349;
+    color: #2e3349;
 }
 
 body {
-    background-color: #19A1AE;
+    background-color: #19a1ae;
 }
 
 .beeg-circle-1 {
@@ -15,8 +15,12 @@ body {
     border-radius: 50%;
     position: fixed;
     z-index: -1;
-    background: rgb(9,137,180);
-    background: linear-gradient(115deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%);
+    background: rgb(9, 137, 180);
+    background: linear-gradient(
+        115deg,
+        rgba(9, 137, 180, 0) 0%,
+        rgba(83, 255, 238, 1) 100%
+    );
     top: 50%;
     left: 50%;
 }
@@ -27,8 +31,12 @@ body {
     border-radius: 50%;
     position: fixed;
     z-index: -1;
-    background: rgb(9,137,180);
-    background: linear-gradient(10deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%);
+    background: rgb(9, 137, 180);
+    background: linear-gradient(
+        10deg,
+        rgba(9, 137, 180, 0) 0%,
+        rgba(83, 255, 238, 1) 100%
+    );
     bottom: 50%;
     right: 50%;
 }
@@ -41,7 +49,7 @@ background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%
     margin: 30vh auto;
     height: fit-content;
     width: fit-content;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 15px;
     z-index: 1;
 }
@@ -50,7 +58,7 @@ background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%
     height: 140px;
     width: 326px;
     border-radius: 15px 15px 0 0;
-    background-color: #41CBD3;
+    background-color: #41cbd3;
 }
 
 .profile-pic {
@@ -77,13 +85,13 @@ background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%
 .profile-age {
     margin-top: 20px;
     margin-left: 8px;
-    color: #6B7082;
+    color: #6b7082;
     font-weight: 400;
 }
 
 .location {
     text-transform: capitalize;
-    color: #6B7082;
+    color: #6b7082;
     font-size: 14px;
     font-weight: 400;
     margin-top: 8px;
@@ -93,7 +101,7 @@ background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%
 }
 
 .profile-footer {
-    border-top: 1px solid #E8E9EC;
+    border-top: 1px solid #e8e9ec;
     display: flex;
     justify-content: space-evenly;
 }
@@ -122,19 +130,13 @@ background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%
 
 .footer-descriptor {
     text-transform: capitalize;
-    color: #6B7082;
+    color: #6b7082;
     font-weight: 400;
     font-size: 10px;
     letter-spacing: 1.5px;
     margin: 9px 0 24px 0;
 }
 
-/*Small screens*/
-@media (min-width: 640px) {
-
-}
-
-/*Medium screens*/
 @media (min-width: 768px) {
     .top-bar {
         width: 350px;
@@ -156,14 +158,4 @@ background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%
         bottom: 40px;
         left: 128px;
     }
-}
-
-/*Large screens*/
-@media (min-width: 1024px) {
-
-}
-
-/*Extra Large screens*/
-@media (min-width: 1280px) {
-
 }
