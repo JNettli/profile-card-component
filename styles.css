@@ -107,15 +107,7 @@ body {
     width: fit-content;
 }
 
-.footbox-1 {
-    text-align: center;
-}
-
-.footbox-2 {
-    text-align: center;
-}
-
-.footbox-3 {
+.footbox {
     text-align: center;
 }
 
