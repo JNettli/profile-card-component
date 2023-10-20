@@ -9,12 +9,41 @@ body {
     background-color: #19A1AE;
 }
 
+.beeg-circle-1 {
+    height: 622px;
+    width: 622px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+    background: rgb(9,137,180);
+    background: linear-gradient(115deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%);
+    top: 50%;
+    left: 50%;
+}
+
+.beeg-circle-2 {
+    height: 622px;
+    width: 622px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+    background: rgb(9,137,180);
+    background: linear-gradient(10deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%);
+    bottom: 50%;
+    right: 50%;
+}
+/* 
+background: rgb(9,137,180);
+background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%);
+*/
+
 .card-container {
-    margin: 8% auto;
+    margin: 30vh auto;
     height: fit-content;
     width: fit-content;
     background-color: #FFFFFF;
     border-radius: 15px;
+    z-index: 1;
 }
 
 .top-bar {
@@ -24,24 +53,30 @@ body {
     background-color: #41CBD3;
 }
 
-.profile-pic-bg {
-    border-radius: 50%;
-}
-
 .profile-pic {
     border-radius: 50%;
+    height: 96px;
+    width: 96px;
+    position: relative;
+    bottom: 48px;
+    left: 115px;
 }
 
 .profile-info {
     display: flex;
+    justify-content: center;
+    margin-top: -50px;
 }
 
 .profile-name {
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 .profile-age {
+    margin-top: 20px;
+    margin-left: 8px;
     color: #6B7082;
     font-weight: 400;
 }
@@ -51,35 +86,47 @@ body {
     color: #6B7082;
     font-size: 14px;
     font-weight: 400;
-
+    margin-top: 8px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
 }
 
 .profile-footer {
+    border-top: 1px solid #E8E9EC;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.ovals {
+    width: fit-content;
 }
 
 .footbox-1 {
-    
+    text-align: center;
 }
 
 .footbox-2 {
-
+    text-align: center;
 }
 
 .footbox-3 {
-
+    text-align: center;
 }
 
 .footer-counter {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
+    margin: 24px 0 0 0;
 }
 
 .footer-descriptor {
     text-transform: capitalize;
     color: #6B7082;
     font-weight: 400;
+    font-size: 10px;
     letter-spacing: 1.5px;
+    margin: 9px 0 24px 0;
 }
 
 /*Small screens*/
@@ -89,7 +136,26 @@ body {
 
 /*Medium screens*/
 @media (min-width: 768px) {
+    .top-bar {
+        width: 350px;
+    }
 
+    .beeg-circle-1 {
+        height: 978px;
+        width: 978px;
+    }
+
+    .beeg-circle-2 {
+        height: 978px;
+        width: 978px;
+    }
+    .ovals {
+        width: 350px;
+    }
+    .profile-pic {
+        bottom: 40px;
+        left: 128px;
+    }
 }
 
 /*Large screens*/
