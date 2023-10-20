@@ -40,10 +40,6 @@ body {
     bottom: 50%;
     right: 50%;
 }
-/* 
-background: rgb(9,137,180);
-background: linear-gradient(45deg, rgba(9,137,180,0) 0%, rgba(83,255,238,1) 100%);
-*/
 
 .card-container {
     margin: 30vh auto;
