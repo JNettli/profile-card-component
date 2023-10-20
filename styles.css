@@ -9,13 +9,17 @@ body {
     background-color: #19a1ae;
 }
 
-.beeg-circle-1 {
+
+.beeg-circle-1, .beeg-circle-2 {
     height: 622px;
     width: 622px;
     border-radius: 50%;
     position: fixed;
     z-index: -1;
     background: rgb(9, 137, 180);
+}
+
+.beeg-circle-1 {
     background: linear-gradient(
         115deg,
         rgba(9, 137, 180, 0) 0%,
@@ -26,12 +30,6 @@ body {
 }
 
 .beeg-circle-2 {
-    height: 622px;
-    width: 622px;
-    border-radius: 50%;
-    position: fixed;
-    z-index: -1;
-    background: rgb(9, 137, 180);
     background: linear-gradient(
         10deg,
         rgba(9, 137, 180, 0) 0%,
