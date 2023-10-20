@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: #2E3349;
+}
+
+body {
+    background-color: #19A1AE;
+}
+
+.card-container {
+    margin: 8% auto;
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.top-bar {
+    height: 140px;
+    width: 326px;
+    border-radius: 15px 15px 0 0;
+    background-color: #41CBD3;
+}
+
+.profile-pic-bg {
+    border-radius: 50%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+}
+
+.profile-name {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.profile-age {
+    color: #6B7082;
+    font-weight: 400;
+}
+
+.location {
+    text-transform: capitalize;
+    color: #6B7082;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.profile-footer {
+
+}
+
+.footbox-1 {
+    
+}
+
+.footbox-2 {
+
+}
+
+.footbox-3 {
+
+}
+
+.footer-counter {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-descriptor {
+    text-transform: capitalize;
+    color: #6B7082;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+/*Small screens*/
+@media (min-width: 640px) {
+
+}
+
+/*Medium screens*/
+@media (min-width: 768px) {
+
+}
+
+/*Large screens*/
+@media (min-width: 1024px) {
+
+}
+
+/*Extra Large screens*/
+@media (min-width: 1280px) {
+
+}
